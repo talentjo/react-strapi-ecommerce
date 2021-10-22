@@ -1,0 +1,47 @@
+.header {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #333;
+    width:100%;
+    box-shadow: 1px 0px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+
+    .logo-text h1{
+        font-size: 27px;
+        color:black;
+    }
+}
+
+.button-grop1 {
+    display: inline-block;
+}
+
+button {
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+    }
+}
+
+
+
+

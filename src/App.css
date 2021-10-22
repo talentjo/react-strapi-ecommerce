@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Advent Pro';
+  margin: auto 0;
+  background-color: #E0D1BE;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+
